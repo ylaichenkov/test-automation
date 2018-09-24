@@ -17,7 +17,7 @@ public class SearchFunctionality {
     public static void setUp() {
         driver = new ChromeDriver();
         driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.get(URL);
         driver.manage().window().maximize();
